@@ -1,0 +1,6 @@
+framework module ElectrodeContainer {
+  umbrella header "ElectrodeContainer.h"
+
+  export *
+  module * { export * }
+}
