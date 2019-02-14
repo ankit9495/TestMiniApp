@@ -177,7 +177,7 @@
 				TargetAttributes = {
 					304F3E941EEF455C00F1E36B = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = DG9888X79R;
+						DevelopmentTeam = V2WK2S3LUR;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -375,7 +375,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = DG9888X79R;
+				DEVELOPMENT_TEAM = V2WK2S3LUR;
 				INFOPLIST_FILE = ErnRunner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.ernrunner;
@@ -388,7 +388,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = DG9888X79R;
+				DEVELOPMENT_TEAM = V2WK2S3LUR;
 				INFOPLIST_FILE = ErnRunner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.ernrunner;

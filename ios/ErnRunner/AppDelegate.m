@@ -17,7 +17,6 @@
 #import "AppDelegate.h"
 #import "RunnerConfig.h"
 #import <ElectrodeContainer/ElectrodeContainer.h>
-#import <CodePush/CodePush.h>
 
 
 @interface AppDelegate ()
@@ -29,13 +28,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Start the container
-    //    ElectrodeContainerConfig *containerConfig = [[ElectrodeContainerConfig alloc] init];
-    //    containerConfig.debugEnabled = RnDevSupportEnabled;
-    ////    [ElectrodeReactNative startWithConfigurations:containerConfig];
-    //    [ElectrodeReactNative startWithConfigurations:containerConfig electrodeCodePushConfig:ElectrodeCodePushConfig];
+   // ElectrodeContainerConfig *containerConfig = [[ElectrodeContainerConfig alloc] init];
+    //containerConfig.debugEnabled = RnDevSupportEnabled;
+    //[ElectrodeReactNative startWithConfigurations:containerConfig];
+    
     ElectrodeContainerConfig *containerConfig = [[ElectrodeContainerConfig alloc] init];
     ElectrodeCodePushConfig *codePushConfig = [[ElectrodeCodePushConfig alloc] initWithDeploymentKey:@"DEPLOYMENT_KEY" serverURL:nil containerConfig:containerConfig];
     [ElectrodeReactNative startWithConfigurations:containerConfig electrodeCodePushConfig:codePushConfig];
+
     return YES;
 }
 
