@@ -1,4 +1,5 @@
 <resources>
+    <string moduleConfig="true" name="reactNativeCodePush_androidDeploymentKey">zB-ox850Dx_zRE4O57PN6KOqUMYE615ee700-79f4-4a43-9100-6f88edb55894</string>
     <string name="app_name">ErnRunner</string>
     <string name="welcome_message">Welcome to ErnRunner App</string>
     <string name="welcome_suggestion">Force close to reload ern mini-app bundle</string>

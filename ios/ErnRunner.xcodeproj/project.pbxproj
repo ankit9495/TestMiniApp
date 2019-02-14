@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		22D397211F50C6FE00C40FE2 /* RunnerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D397201F50C6FE00C40FE2 /* RunnerConfig.m */; };
-		302CACDF1EF0A6D600B1ED18 /* ElectrodeContainer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 302CACDC1EF0A6CF00B1ED18 /* ElectrodeContainer.framework */; };
-		302CACE01EF0A6D600B1ED18 /* ElectrodeContainer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 302CACDC1EF0A6CF00B1ED18 /* ElectrodeContainer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		304F3E9A1EEF455C00F1E36B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 304F3E991EEF455C00F1E36B /* main.m */; };
 		304F3E9D1EEF455C00F1E36B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 304F3E9C1EEF455C00F1E36B /* AppDelegate.m */; };
 		304F3EA31EEF455C00F1E36B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 304F3EA11EEF455C00F1E36B /* Main.storyboard */; };
@@ -19,26 +17,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		302CACDB1EF0A6CF00B1ED18 /* PBXContainerItemProxy */ = {
+		1A4C7C4D221591F3005F82C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 302CACCA1EF0A6CF00B1ED18 /* ElectrodeContainer.xcodeproj */;
+			containerPortal = 1A4C7C3A221591EC005F82C5 /* ElectrodeContainer.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 485009E31E2FF23B009B6610;
 			remoteInfo = ElectrodeContainer;
 		};
-		302CACDD1EF0A6CF00B1ED18 /* PBXContainerItemProxy */ = {
+		1A4C7C4F221591F3005F82C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 302CACCA1EF0A6CF00B1ED18 /* ElectrodeContainer.xcodeproj */;
+			containerPortal = 1A4C7C3A221591EC005F82C5 /* ElectrodeContainer.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 485009EC1E2FF23C009B6610;
 			remoteInfo = ElectrodeContainerTests;
-		};
-		302CACE11EF0A6D600B1ED18 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 302CACCA1EF0A6CF00B1ED18 /* ElectrodeContainer.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 485009E21E2FF23B009B6610;
-			remoteInfo = ElectrodeContainer;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -49,7 +40,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				302CACE01EF0A6D600B1ED18 /* ElectrodeContainer.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -57,9 +47,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1A4C7C3A221591EC005F82C5 /* ElectrodeContainer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ElectrodeContainer.xcodeproj; path = ../../Container/ElectrodeContainer.xcodeproj; sourceTree = "<group>"; };
 		22D3971F1F50C6FE00C40FE2 /* RunnerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunnerConfig.h; sourceTree = "<group>"; };
 		22D397201F50C6FE00C40FE2 /* RunnerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunnerConfig.m; sourceTree = "<group>"; };
-		302CACCA1EF0A6CF00B1ED18 /* ElectrodeContainer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ElectrodeContainer.xcodeproj; path = "~/.ern/containergen/out/ios/ElectrodeContainer.xcodeproj"; sourceTree = "<group>"; };
 		304F3E951EEF455C00F1E36B /* ErnRunner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ErnRunner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		304F3E991EEF455C00F1E36B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		304F3E9B1EEF455C00F1E36B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -77,18 +67,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				302CACDF1EF0A6D600B1ED18 /* ElectrodeContainer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		302CACCB1EF0A6CF00B1ED18 /* Products */ = {
+		1A4C7C3B221591EC005F82C5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				302CACDC1EF0A6CF00B1ED18 /* ElectrodeContainer.framework */,
-				302CACDE1EF0A6CF00B1ED18 /* ElectrodeContainerTests.xctest */,
+				1A4C7C4E221591F3005F82C5 /* ElectrodeContainer.framework */,
+				1A4C7C50221591F3005F82C5 /* ElectrodeContainerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -139,7 +128,7 @@
 		304F3EB01EEF58A300F1E36B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				302CACCA1EF0A6CF00B1ED18 /* ElectrodeContainer.xcodeproj */,
+				1A4C7C3A221591EC005F82C5 /* ElectrodeContainer.xcodeproj */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,7 +148,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				302CACE21EF0A6D600B1ED18 /* PBXTargetDependency */,
 			);
 			name = ErnRunner;
 			productName = ErnRunner;
@@ -195,8 +183,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 302CACCB1EF0A6CF00B1ED18 /* Products */;
-					ProjectRef = 302CACCA1EF0A6CF00B1ED18 /* ElectrodeContainer.xcodeproj */;
+					ProductGroup = 1A4C7C3B221591EC005F82C5 /* Products */;
+					ProjectRef = 1A4C7C3A221591EC005F82C5 /* ElectrodeContainer.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -207,18 +195,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		302CACDC1EF0A6CF00B1ED18 /* ElectrodeContainer.framework */ = {
+		1A4C7C4E221591F3005F82C5 /* ElectrodeContainer.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = ElectrodeContainer.framework;
-			remoteRef = 302CACDB1EF0A6CF00B1ED18 /* PBXContainerItemProxy */;
+			remoteRef = 1A4C7C4D221591F3005F82C5 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		302CACDE1EF0A6CF00B1ED18 /* ElectrodeContainerTests.xctest */ = {
+		1A4C7C50221591F3005F82C5 /* ElectrodeContainerTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = ElectrodeContainerTests.xctest;
-			remoteRef = 302CACDD1EF0A6CF00B1ED18 /* PBXContainerItemProxy */;
+			remoteRef = 1A4C7C4F221591F3005F82C5 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -249,14 +237,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		302CACE21EF0A6D600B1ED18 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ElectrodeContainer;
-			targetProxy = 302CACE11EF0A6D600B1ED18 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		304F3EA11EEF455C00F1E36B /* Main.storyboard */ = {
