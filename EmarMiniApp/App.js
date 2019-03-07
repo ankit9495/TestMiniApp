@@ -30,7 +30,8 @@ export default class App extends Component<Props> {
 
 
     buttonClick = async () => {
-        let newString =  await NativeModules.GetData.getThing();
+        console.log("Navtive Module : ", NativeModules);
+        let newString =  await NativeModules.GetData.getThing("hello...");
         console.log("Text change : ", newString);
         this.setState({text: newString})
     };
